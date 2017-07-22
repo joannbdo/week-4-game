@@ -1,0 +1,66 @@
+body{
+	background-image: url("../images/background.jpg")
+}
+
+div{
+	background-color: purple;
+	color: white;
+	margin: 10px;
+	width: 25%
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	padding: 10px;
+}
+
+h1{
+	font-size: 30pt;
+}
+
+h2{
+	color: white;
+}
+
+p{
+	padding: 10px;
+	
+}
+
+}
+/* Specfic Elements*/
+
+/* Classes */
+div.header{
+	width: 33%;
+} 
+
+div.instructions{
+	width: 50%;
+}
+
+.numberToGet, .winsAndLosses{
+	float: left;
+	color: white;
+	width: 15%;
+	height: 150px;
+}
+
+.userScore{
+	width: 20%;
+	height: 150px;
+	padding: 10px;
+}
+
+.jewels{
+	width: 50%;
+	text-align: center;
+	clear: both;
+}
+
+.jewelsImg{
+	height: 120px;
+	margin: 10px;
+}
